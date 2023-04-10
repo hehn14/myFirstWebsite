@@ -1,11 +1,36 @@
+html{
+    background-color: #d6caae;
+}
+
 .navigation{
     display: flex;
     justify-content: space-between;
     font-size: 1.5em;
-    padding: 15px;
+    color: #E3B23C;
+    padding: 10px;
     padding-left: 200px;
     padding-right: 200px;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     height: auto;
 }
+
+h1{
+    font-family: fantasy;
+    font-size: 3em;
+}
+
+.navigation > a:visited{
+    color: solid black;
+    text-decoration: none;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*
+Color :#5a7179
+*/

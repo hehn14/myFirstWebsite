@@ -14,15 +14,22 @@ html{
     height: auto;
 }
 
-.content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+h1{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 3em;
+
 }
 
-.links{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.5em;
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 3px solid black;
+    margin: 10px;
+
+}
+
+img{
+    width: 100%;
 }

@@ -14,15 +14,23 @@ html{
     height: auto;
 }
 
+fieldset > div{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+
+}
+
 .content{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.links{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.5em;
+input,textarea{
+    background-color: #aea48e;
+}
+
+button{
+    background-color: #ffc500;
 }
